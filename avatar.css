@@ -1,0 +1,14 @@
+/* Style de l'avatar */
+.avatar-section {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.avatar {
+  width: 10px;
+  height: 10px;
+  border-radius: 50;
+  border: 3px solid #007bff;
+  margin-bottom: 20px;
+  object-fit: cover;
+}

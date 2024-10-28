@@ -1,0 +1,38 @@
+* Styles pour la grille de cartes */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centre les cartes */
+    margin: 20px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /* Colonne pour le contenu de la carte */
+    align-items: center; /* Centre le contenu */
+    justify-content: center; /* Centre le contenu */
+    padding: 20px;
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+    flex-basis: 250px; /* Largeur de chaque carte */
+    flex-grow: 1; /* Permet aux cartes de grandir */
+    margin: 10px; /* Espace entre les cartes */
+    background-color: #fff; /* Fond blanc */
+    text-align: center; /* Centre le texte */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Ombre pour un effet de profondeur */
+}
+
+.card img {
+    width: 150px; /* Largeur de l'image */
+    height: 100px; /* Hauteur de l'image */
+    border-radius: 5px; /* Coins arrondis pour l'image */
+    object-fit: cover; /* Ajuste l'image pour couvrir l'espace */
+}
+
+.card h3 {
+    font-family: 'Roboto', sans-serif; /* Police pour le titre */
+    font-size: 20px; /* Taille du titre */
+    font-weight: 700; /* Gras */
+    color: #007bff; /* Couleur du titre */
+    margin-top: 15px; /* Espace au-dessus du titre */
+}

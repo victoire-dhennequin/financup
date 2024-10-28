@@ -1,0 +1,15 @@
+/* Style du conteneur central */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.container h1,
+.container h2 {
+  margin: 0;
+  padding: 10px 0;
+  line-height: 1.2;
+}
